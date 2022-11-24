@@ -1,0 +1,11 @@
+$main-color: crimson;
+$second-color: #ffffff;
+
+$main-Font: "poppins", sans-serif;
+$second-Font: ubuntu, sans-serif;
+
+@mixin max-width {
+  max-width: 1300px;
+  padding: 0px 80px;
+  margin: auto;
+}

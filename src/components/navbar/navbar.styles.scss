@@ -1,0 +1,44 @@
+@import "../variabels/variabel.styles.scss";
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px 0;
+  background-color: black;
+  z-index: 999;
+
+  .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 50px;
+  }
+  .logo {
+    a {
+      color: $second-color;
+      font-size: 50px;
+      font-weight: 600;
+    }
+    span {
+      color: $main-color;
+    }
+  }
+  .menu {
+    li {
+      list-style: none;
+      display: inline-block;
+      a {
+        color: $second-color;
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+}
