@@ -1,0 +1,51 @@
+@import "../variabels/variabel.styles.scss";
+
+.skills {
+  height: 100vh;
+  .title::after {
+    content: "what i know";
+  }
+  .skills-content {
+    @include component-content;
+    .column {
+      //outline: 1px solid red;
+      width: calc(50% - 30px) !important;
+    }
+    .left {
+      .text {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      a {
+        display: inline-block;
+        background: crimson;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 8px 16px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid crimson;
+        transition: all 0.3s ease;
+        &:hover {
+          color: crimson;
+          background: none;
+        }
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    .right {
+      i {
+        //outline: 1px solid red;
+        margin-bottom: 50px;
+        color: $crimson-color;
+        font-size: 60px;
+        width: 30%;
+        height: 40px;
+      }
+    }
+  }
+}

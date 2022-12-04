@@ -1,0 +1,54 @@
+@import "../variabels/variabel.styles.scss";
+.services {
+  color: $white-color;
+  background: #111;
+  height: 100vh;
+  .max-width {
+    .title {
+      &::before {
+        background: $white-color;
+      }
+      &::after {
+        content: "what i provide";
+        background: #111;
+      }
+    }
+    .serv-content {
+      @include component-content;
+      .card {
+        width: calc(33% - 20px);
+        height: 300px;
+        background: #222;
+        text-align: center;
+        border-radius: 6px;
+        padding: 50px 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        .box {
+          transition: all 0.3s ease;
+        }
+        &:hover {
+          background: $crimson-color;
+          .box {
+            transform: scale(1.1);
+          }
+          i {
+            color: $white-color;
+          }
+        }
+
+        i {
+          font-size: 50px;
+          color: $crimson-color;
+          transition: color 0.3s ease;
+        }
+        .text {
+          font-size: 25px;
+          font-weight: 500;
+          margin: 10px 0 7px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "../variabels/variabel.styles.scss";
+
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+  span {
+    .salim {
+      color: crimson;
+    }
+  }
+}

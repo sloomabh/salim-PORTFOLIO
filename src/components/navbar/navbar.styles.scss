@@ -1,42 +1,51 @@
 @import "../variabels/variabel.styles.scss";
 
 .navbar {
+  // outline: 5px solid red;
   position: fixed;
   width: 100%;
   font-family: "Ubuntu", sans-serif;
-  padding: 10px 0;
+  padding: 8px 0;
   background-color: black;
   z-index: 999;
 
-  .max-width {
+  top: 0px;
+
+  .max-width-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto 50px;
+    margin: 2px 80px;
   }
   .logo {
     a {
-      color: $second-color;
+      color: $white-color;
       font-size: 50px;
       font-weight: 600;
     }
     span {
-      color: $main-color;
+      color: $crimson-color;
     }
   }
   .menu {
     li {
       list-style: none;
       display: inline-block;
+      transition: color 0.3s ease, transform 0.3s ease;
+      &:hover {
+        transform: scale(1.2);
+      }
       a {
-        color: $second-color;
+        //outline: 1px solid red;
+        color: $white-color;
         font-size: 25px;
         font-weight: 500;
         margin-left: 25px;
-        transition: color 0.3s ease;
+        transition: color 0.3s ease, transform 0.3s ease;
 
         &:hover {
-          color: $main-color;
+          color: $crimson-color;
+          transform: rotate(180deg);
         }
       }
     }

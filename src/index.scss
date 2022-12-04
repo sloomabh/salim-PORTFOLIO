@@ -3,12 +3,67 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  //outline: 1px solid red;
 }
 
 html {
   scroll-behavior: smooth;
 }
+section {
+  padding: 90px 0;
+
+  // outline: 10px solid red;
+}
+
 // FONTS : POPPINS ( regular 400 / medium 500 / semi-bold 600 / Bold 700 )
 
-body {
+.about,
+.services,
+.skills,
+.contact,
+footer,
+.projects {
+  font-family: poppins, sans-serif;
 }
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: ubuntu, sans-serif;
+
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: black;
+    height: 3px;
+    width: 180px;
+    left: 50%;
+    bottom: 0px;
+
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    content: "who i am";
+    position: absolute;
+    background: #fff;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+    color: crimson;
+    font-size: 20px;
+    transform: translateX(-50%);
+  }
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0px 50px;
+  margin: auto;
+  // outline: 10px solid red;
+}
+//  outline: 1px solid red;

@@ -1,7 +1,14 @@
-//import "./footer.styles.css";
+import "./footer.styles.scss";
 
 const Footer = () => {
-  return <div>footer</div>;
+  return (
+    <footer>
+      <span>
+        Created By <span className="salim">Salim Ben Halima</span> |
+        <span className="far fa-copyright"></span> 2022 All rights reserved.
+      </span>
+    </footer>
+  );
 };
 
 export default Footer;

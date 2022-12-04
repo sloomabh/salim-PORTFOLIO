@@ -1,11 +1,18 @@
-$main-color: crimson;
-$second-color: #ffffff;
+$crimson-color: crimson;
+$white-color: #ffffff;
 
-$main-Font: "poppins", sans-serif;
-$second-Font: ubuntu, sans-serif;
+$poppins-Font: "poppins", sans-serif;
+$ubuntu-Font: ubuntu, sans-serif;
 
 @mixin max-width {
   max-width: 1300px;
   padding: 0px 80px;
   margin: auto;
+}
+
+@mixin component-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }

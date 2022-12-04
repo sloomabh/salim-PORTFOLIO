@@ -1,0 +1,84 @@
+@import "../variabels/variabel.styles.scss";
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #111;
+  height: 100vh;
+  color: $white-color;
+  min-height: 500px;
+  font-family: $ubuntu-Font;
+  .max-width {
+    margin: 250px auto 20 auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    max-width: 1300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .home-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: left;
+
+      .text-1 {
+        font-size: 27px;
+      }
+      .text-2 {
+        font-size: 75px;
+        font-weight: 600;
+        margin-left: -3px;
+      }
+      .text-3 {
+        font-size: 27px;
+        margin: 5px 0;
+        span {
+          color: $crimson-color;
+          font-weight: 500;
+        }
+      }
+
+      a {
+        display: inline-block;
+        background: $crimson-color;
+        color: $white-color;
+        font-size: 25px;
+        padding: 12px 36px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 2px solid $crimson-color;
+        transition: all 0.3s ease;
+        &:hover {
+          background: none;
+          color: $crimson-color;
+        }
+      }
+    }
+    .image {
+      margin-left: 150px;
+      padding: 0px 0px;
+
+      .imagee {
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 16px 14px 20px crimson;
+        transform: rotate(2deg);
+        transition: all 0.3s ease;
+        &:hover {
+          transform: rotate(7deg);
+        }
+      }
+    }
+  }
+}

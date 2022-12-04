@@ -6,6 +6,7 @@ import Footer from "./components/footer/footer.component";
 import Services from "./components/services/services.component";
 import Skills from "./components/skills/skills.component";
 import Navbar from "./components/navbar/navbar.component";
+import Certificates from "./components/certificates/cerificates.component";
 import { Fragment } from "react";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Services />
       <Skills />
       <Projects />
+      <Certificates />
       <Contact />
       <Footer />
     </Fragment>
