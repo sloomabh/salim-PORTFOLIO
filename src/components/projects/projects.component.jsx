@@ -3,6 +3,7 @@ import forkify from "../../assets/forkify.png";
 import bankist_app from "../../assets/bankist-app.png";
 import bankist_web from "../../assets/bankist-web.png";
 import e_commerse from "../../assets/e-commerse.png";
+import dashbord from "../../assets/dashbord.jpg";
 
 const Projects = () => {
   return (
@@ -71,6 +72,29 @@ const Projects = () => {
               </a>
               <a
                 href="https://salim-clothing.netlify.app/shop"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={dashbord} alt="" />
+            </div>
+            <h3>Dashbord-app</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/sloomabh/Dashbord-App"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://shoppy-app-dashbord.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >

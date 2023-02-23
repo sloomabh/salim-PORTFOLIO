@@ -1,5 +1,17 @@
 import "./skills.styles.scss";
 
+import {
+  SiTypescript,
+  SiJavascript,
+  SiRedux,
+  SiMaterialui,
+  SiWebpack,
+} from "react-icons/si";
+import { DiMongodb, DiReact, DiSass } from "react-icons/di";
+import { AiFillHtml5 } from "react-icons/ai";
+import { FaCss3Alt, FaNodeJs } from "react-icons/fa";
+//import { SiJavascript } from "react-icons/fa";
+
 const Skills = () => {
   return (
     <section className="skills" id="skills">
@@ -22,14 +34,17 @@ const Skills = () => {
             <a href="#projects">Read more</a>
           </div>
           <div className="column right">
-            <i className="fa-brands fa-css3-alt"></i>
-            <i className="fa-brands fa-html5"></i>
-            <i className="fa-brands fa-js"></i>
-            <i className="fa-brands fa-react"></i>
-
-            <i className="fa-brands fa-sass"></i>
-            <i className="fa-brands fa-node"></i>
-            <i className="fa-solid fa-database"></i>
+            <AiFillHtml5 />
+            <FaCss3Alt />
+            <SiJavascript />
+            <SiTypescript />
+            <DiReact />
+            <SiRedux />
+            <DiSass />
+            <SiMaterialui />
+            <SiWebpack />
+            <DiMongodb />
+            <FaNodeJs />
           </div>
         </div>
       </div>
@@ -38,3 +53,12 @@ const Skills = () => {
 };
 
 export default Skills;
+/*
+ <i className="fa-brands fa-css3-alt"></i>
+            <i className="fa-brands fa-html5"></i>
+            <i className="fa-brands fa-js"></i>
+            <i className="fa-brands fa-react"></i>
+
+            <i className="fa-brands fa-sass"></i>
+            <i className="fa-brands fa-node"></i>
+            <i className="fa-solid fa-database"></i>*/
