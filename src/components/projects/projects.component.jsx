@@ -4,6 +4,8 @@ import bankist_app from "../../assets/bankist-app.png";
 import bankist_web from "../../assets/bankist-web.png";
 import e_commerse from "../../assets/e-commerse.png";
 import dashbord from "../../assets/dashbord.jpg";
+import fitness from "../../assets/fitness.png";
+import restorant from "../../assets/restorant.png";
 
 const Projects = () => {
   return (
@@ -95,6 +97,48 @@ const Projects = () => {
               </a>
               <a
                 href="https://shoppy-app-dashbord.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={fitness} alt="" />
+            </div>
+            <h3>fitness-app</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/sloomabh/my-fitness-app"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a href="#" className="btn btn-primary" target="_blank">
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={restorant} alt="" />
+            </div>
+            <h3>Restaurant webpage</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/sloomabh/restaurant-website"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://salim-restaurant.netlify.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
