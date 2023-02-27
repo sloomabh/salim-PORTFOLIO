@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
-import "./navbar.styles.scss";
+import "./navbar.styles.css";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -59,10 +59,11 @@ const Navbar = () => {
             Contact
           </a>
         </li>
+
         <div className="app__navbar-smallscreen">
           <GiHamburgerMenu color="#fff" fontSize={27} onClick={openMenu} />
           {toggleMenu && (
-            <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+            <div className="app__navbar-smallscreen_overlay  slide-bottom">
               <MdOutlineRestaurantMenu
                 fontSize={27}
                 className="overlay__close"
