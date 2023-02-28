@@ -4,6 +4,11 @@
   color: white;
   background-color: #111;
   height: 100vh;
+  @media screen and (max-width: 1150px) {
+    & {
+      height: auto;
+    }
+  }
   .max-width {
     .title {
       &::before {
@@ -23,6 +28,11 @@
       width: 100%;
       max-width: 1300px;
       margin: 0 auto;
+      @media screen and (max-width: 1150px) {
+        & {
+          grid-template-columns: 1fr;
+        }
+      }
 
       .left {
         .text {

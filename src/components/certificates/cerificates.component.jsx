@@ -16,8 +16,12 @@ const Certificates = () => {
             <div className="portfolio__item-image">
               <img src={web_design} alt="" />
             </div>
-            <a href={web_design} download className="btn" target="_blank">
-              DOWNLOAD
+            <a
+              href="https://drive.google.com/file/d/10SMYipHcoZt3fQFErTsU9UpYjydJxXqB/view?usp=share_link"
+              className="btn"
+              target="_blank"
+            >
+              VIEW
             </a>
           </article>
           <article className="portfolio__item">
@@ -25,8 +29,12 @@ const Certificates = () => {
             <div className="portfolio__item-image">
               <img src={javascript} alt="" />
             </div>
-            <a href={javascript} download className="btn" target="_blank">
-              DOWNLOAD
+            <a
+              href="https://drive.google.com/file/d/1UNgR5wpYXfheH0M4zaqNs0fiLAqEzDta/view?usp=share_link"
+              className="btn"
+              target="_blank"
+            >
+              VIEW
             </a>
           </article>
           <article className="portfolio__item">
@@ -35,12 +43,11 @@ const Certificates = () => {
               <img src={javascript_course} alt="" />
             </div>
             <a
-              href={javascript_course}
-              download
+              href="https://drive.google.com/file/d/1ZBpAMFYWGDCzNrrCkDUjfXaOP33B6D01/view?usp=share_link"
               className="btn"
               target="_blank"
             >
-              DOWNLOAD
+              VIEW
             </a>
           </article>
           <article className="portfolio__item">
@@ -49,12 +56,11 @@ const Certificates = () => {
               <img src={Introduction_to_container} alt="" />
             </div>
             <a
-              href={Introduction_to_container}
-              download
+              href="https://drive.google.com/file/d/1XynGnxIcvdw2E537HvoVjzhBhdIoYPuD/view?usp=share_link"
               className="btn"
               target="_blank"
             >
-              DOWNLOAD
+              VIEW
             </a>
           </article>
           <article className="portfolio__item">
@@ -63,12 +69,11 @@ const Certificates = () => {
               <img src={Fundamentals_of_Kubernetes} alt="" />
             </div>
             <a
-              href={Fundamentals_of_Kubernetes}
-              download
+              href="https://drive.google.com/file/d/1auFTB7ySr3y07z1gSNcl2VzL2Uy4ew6U/view?usp=share_link"
               className="btn"
               target="_blank"
             >
-              DOWNLOAD
+              VIEW
             </a>
           </article>
         </div>
@@ -78,3 +83,20 @@ const Certificates = () => {
 };
 
 export default Certificates;
+
+/***************download files */
+/*  
+ <article className="portfolio__item">
+            <h3>Fundamentals of Kubernetes Deployment</h3>
+            <div className="portfolio__item-image">
+              <img src={Fundamentals_of_Kubernetes} alt="" />
+            </div>
+            <a
+              href="https://drive.google.com/file/d/1auFTB7ySr3y07z1gSNcl2VzL2Uy4ew6U/view?usp=share_link"
+              className="btn"
+              target="_blank"
+            >
+              DOWNLOAD
+            </a>
+          </article>
+*/
