@@ -22,6 +22,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 1150px) {
+      & {
+        flex-direction: column;
+      }
+    }
 
     .home-content {
       display: flex;
@@ -63,9 +68,19 @@
         }
       }
     }
-    .image {
+    .image-container {
       margin-left: 150px;
       padding: 0px 0px;
+      @media screen and (max-width: 1000px) {
+        & {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 1150px) {
+        & {
+          margin-top: 20px;
+        }
+      }
 
       .imagee {
         height: 400px;

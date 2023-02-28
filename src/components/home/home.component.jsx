@@ -14,7 +14,7 @@ const Home = () => {
           </div>
           <a href="#contact">Contact me</a>
         </div>
-        <div className="image">
+        <div className="image-container">
           <img className="imagee" src={logo} />
         </div>
       </div>

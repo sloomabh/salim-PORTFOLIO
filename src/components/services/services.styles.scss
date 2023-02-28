@@ -3,6 +3,11 @@
   color: $white-color;
   background: #111;
   height: 100vh;
+  @media screen and (max-width: 1150px) {
+    & {
+      height: auto;
+    }
+  }
   .max-width {
     .title {
       &::before {
@@ -15,6 +20,12 @@
     }
     .serv-content {
       @include component-content;
+      @media screen and (max-width: 1150px) {
+        & {
+          display: flex;
+          flex-direction: column;
+        }
+      }
       .card {
         width: calc(33% - 20px);
         height: 300px;
@@ -25,6 +36,13 @@
         cursor: pointer;
         transition: all 0.3s ease;
 
+        @media screen and (max-width: 1150px) {
+          & {
+            margin-bottom: 25px;
+            width: 50%;
+            height: auto;
+          }
+        }
         .box {
           transition: all 0.3s ease;
         }
