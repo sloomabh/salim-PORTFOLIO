@@ -21,15 +21,19 @@ const Skills = () => {
           <div className="column left">
             <div className="text">My creative skills &amp; experiences.</div>
             <p>
-              I use HTML to lay out a document’s general structure and content,
-              CSS for styling and JavaScript for situations that require
-              advanced interactivity. Additionally, I might use AJAX (a
-              combination of JavaScript and XML) to update specific areas of a
-              website without having to refresh the entire page. as a Front end
-              developer I also use the libraries built on these programming
-              languages like AngularJS, jQuery and React; and design frameworks
-              including Foundation and Bootstrap. CSS extensions, such as SASS,
-              provide improved modularity and power.
+              As a frontend engineer, I am passionate about building interactive
+              and engaging user interfaces that provide a seamless user
+              experience. With a strong foundation in HTML, CSS, and JavaScript,
+              I am well-versed in the latest frontend technologies and
+              frameworks such as ReaxtJs. I believe in the importance of
+              creating accessible and responsive designs that can be used by
+              people of all abilities and on all devices. Collaborating with
+              designers, developers, and stakeholders, I am dedicated to
+              delivering high-quality, scalable solutions that meet the unique
+              needs of each project. Whether I am creating a new website from
+              scratch or optimizing an existing one, I am committed to
+              continuously learning and staying up-to-date with the latest
+              trends and best practices in frontend development.
             </p>
             <a href="#projects">Read more</a>
           </div>

@@ -6,6 +6,7 @@ import e_commerse from "../../assets/e-commerse.png";
 import dashbord from "../../assets/dashbord.jpg";
 import fitness from "../../assets/fitness.png";
 import restorant from "../../assets/restorant.png";
+import pej from "../../assets/pej-web.png";
 
 const Projects = () => {
   return (
@@ -13,6 +14,21 @@ const Projects = () => {
       <div className="max-width">
         <h2 className="title">My projects</h2>
         <div className="container portfolio__container">
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={pej} alt="" />
+            </div>
+            <h3>PEJ website</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://passiv-energie.gmbh/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
           <article className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={forkify} alt="" />

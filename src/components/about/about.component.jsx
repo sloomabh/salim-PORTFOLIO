@@ -21,19 +21,33 @@ const About = () => {
               <span className="typed-cursor">|</span>
             </div>
             <p>
-              As a Front end engineer mu main task is to design, build, and
-              implement the user interface systems of websites, software
-              programs, and web-based applications. my primary goal is to
-              provide a satisfactory user experience with no issues, errors, or
-              downtime. I create and optimize systems, play an active role in
-              testing and troubleshooting, and resolve issues such as those
-              related to accessibility and browser compatibility. I often serve
-              as an intermediary bridging the gap between the user and the
-              backend developers, and tweak tools and platforms to adapt to
-              real-world use situations.
+              "Hi there,I'm a frontend engineer with two years of experience at
+              PASSIV ENERGIE JAPAN in Tokyo. I hold a master's degree in
+              mechatronics engineering scince 2020, which has given me a strong
+              foundation in problem-solving, critical thinking, and attention to
+              detail. I started my career at the current company as mechatronics
+              engineer When the pandemic hit, I had to pivot from my role as a
+              mechatronics engineer to frontend development.
+              <br /> Despite having small experience in frontend development, I
+              quickly picked up the necessary skills and demonstrated a strong
+              aptitude for it. I was able to deliver high-quality code and
+              design, collaborating effectively with our team of designers,
+              product managers, and other developers. My experience in
+              mechatronics engineering has been valuable in frontend
+              development, as it has given me a holistic understanding of how
+              technology can be applied to solve complex problems. I have a keen
+              eye for design and am passionate about creating seamless user
+              experiences that meet business objectives. Overall, my journey
+              from mechatronics engineering to frontend development has been
+              challenging, but it has also been rewarding. I am excited to
+              continue honing my skills and contributing to the advancement of
+              web technology."
             </p>
-            <a href={CV} download>
-              Download CV
+            <a
+              href="https://drive.google.com/file/d/17a76-WI-WtrUqR5CaQct3LDDJSo5gOpr/view?usp=share_link"
+              target="_blank"
+            >
+              VIEW CV
             </a>
           </div>
         </div>
