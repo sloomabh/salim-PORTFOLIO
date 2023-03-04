@@ -1,7 +1,7 @@
 @import "../variabels/variabel.styles.scss";
 
 .skills {
-  height: 100vh;
+  height: auto;
   @media screen and (max-width: 1150px) {
     & {
       height: auto;
@@ -56,16 +56,40 @@
       p {
         text-align: justify;
       }
+      .keyword {
+        background-color: yellow;
+        margin: 3px;
+      }
+      .keyword-red {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 3px;
+      }
     }
     .right {
       i,
       svg {
         //outline: 1px solid red;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
         color: $crimson-color;
-        font-size: 60px;
-        width: 30%;
-        height: 40px;
+        font-size: 100px;
+        width: 32%;
+        height: 50px;
+      }
+      .yellow {
+        color: rgb(240, 240, 25);
+      }
+      .blue {
+        color: blue;
+      }
+      .green {
+        color: green;
+      }
+      .blue-f {
+        color: rgb(50, 181, 233);
+      }
+      .red {
+        color: rgb(248, 17, 0);
       }
     }
   }

@@ -23,7 +23,7 @@ const About = () => {
             <p>
               "Hi there,I'm a frontend engineer with two years of experience at
               PASSIV ENERGIE JAPAN in Tokyo. I hold a master's degree in
-              mechatronics engineering scince 2020, which has given me a strong
+              mechatronics engineering since 2020, which has given me a strong
               foundation in problem-solving, critical thinking, and attention to
               detail. I started my career at the current company as mechatronics
               engineer When the pandemic hit, I had to pivot from my role as a
