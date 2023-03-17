@@ -44,7 +44,7 @@ const About = () => {
               web technology."
             </p>
             <a
-              href="https://drive.google.com/file/d/17a76-WI-WtrUqR5CaQct3LDDJSo5gOpr/view?usp=share_link"
+              href="https://drive.google.com/file/d/1ICx8T8HzcCzk2-4BKg8AaI7LDTQNxJtp/view?usp=share_link"
               target="_blank"
             >
               VIEW CV
