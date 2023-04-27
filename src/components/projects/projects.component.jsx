@@ -1,12 +1,13 @@
 import "./projects.styles.scss";
 import forkify from "../../assets/forkify.png";
 import bankist_app from "../../assets/bankist-app.png";
-import bankist_web from "../../assets/bankist-web.png";
+//import bankist_web from "../../assets/bankist-web.png";
 import e_commerse from "../../assets/e-commerse.png";
 import dashbord from "../../assets/dashbord.jpg";
 import fitness from "../../assets/fitness.png";
 import restorant from "../../assets/restorant.png";
 import pej from "../../assets/pej-web.png";
+import twitter from "../../assets/twitter.png";
 
 const Projects = () => {
   return (
@@ -54,19 +55,19 @@ const Projects = () => {
 
           <article className="portfolio__item">
             <div className="portfolio__item-image">
-              <img src={bankist_app} alt="" />
+              <img src={twitter} alt="" />
             </div>
-            <h3>Bankist-App</h3>
+            <h3>Twitter clone</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com/sloomabh/Bankist-App"
+                href="https://github.com/sloomabh/Twitter-App"
                 className="btn"
                 target="_blank"
               >
                 Github
               </a>
               <a
-                href="https://bank-app-salim.netlify.app"
+                href="https://twitter-app-salim.vercel.app/"
                 className="btn btn-primary"
                 target="_blank"
               >
@@ -155,6 +156,28 @@ const Projects = () => {
               </a>
               <a
                 href="https://salim-restaurant.netlify.app/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+          <article className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={bankist_app} alt="" />
+            </div>
+            <h3>Bankist-App</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/sloomabh/Bankist-App"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://bank-app-salim.netlify.app"
                 className="btn btn-primary"
                 target="_blank"
               >
