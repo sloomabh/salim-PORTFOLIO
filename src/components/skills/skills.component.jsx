@@ -55,8 +55,8 @@ const Skills = () => {
                 code splitting, lazy loading, and memoization.
               </span>
               <br />
-              <br />I also have a hand on backend development
-              <span className="keyword-red">backend development</span> tools
+              <br />I also have a hand on
+              <span className="keyword-red"> backend development</span> tools
               that are essential to creating robust and scalable applications.
               My humble experience with{" "}
               <span className="keyword">MERN stack</span>

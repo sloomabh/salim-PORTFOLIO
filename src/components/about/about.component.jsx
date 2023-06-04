@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.styles.scss";
-import CV from "../../assets/CV Salim Benhalima 2022.pdf";
+//import CV from "../../assets/CV Salim Benhalima 2022.pdf";
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
             <div className="text">
               I'm SALIM BEN HALIMA and I'm a
               <span className="typing-2"> Developer</span>
-              <span className="typed-cursor">|</span>
+              {/*<span className="typed-cursor">|</span>*/}
             </div>
             <p>
               "Hi there,I'm a frontend engineer with two years of experience at
@@ -44,8 +44,9 @@ const About = () => {
               web technology."
             </p>
             <a
-              href="https://drive.google.com/file/d/1rjD9FuAiw1Tj7lM7zjy8AkJmgpm1_0aY/view?usp=share_link"
+              href="https://drive.google.com/file/d/1Zmr-u22cuJtEBYPu_udB7Fbb_5PwOGSr/view?usp=sharing"
               target="_blank"
+              rel="noreferrer"
             >
               VIEW CV
             </a>
